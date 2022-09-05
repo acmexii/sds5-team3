@@ -73,6 +73,7 @@
                 'location': '',
                 'used': false,
                 'remark': '',
+                'remark2': '',
             }
         },
         methods:{
