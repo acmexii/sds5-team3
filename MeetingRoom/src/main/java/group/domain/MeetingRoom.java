@@ -24,6 +24,8 @@ public class MeetingRoom {
     private Boolean used;
 
     private String remark;
+    
+    private String remark2;
 
     @PostPersist
     public void onPostPersist() {
