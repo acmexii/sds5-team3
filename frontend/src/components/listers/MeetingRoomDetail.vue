@@ -23,6 +23,9 @@
             <div>
                 <String label="Remark2" v-model="item.remark2" :editMode="editMode" @change="change" />
             </div>
+            <div>
+                <String label="Remark3" v-model="item.remark3" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
 
         <v-card-actions>

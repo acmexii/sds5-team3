@@ -32,6 +32,9 @@
                             <v-list-item-subtitle>
                                 Remark2 :  {{item.remark2 }}
                             </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                Remark3 :  {{item.remark3 }}
+                            </v-list-item-subtitle>
                         </v-list-item-content>
 
                         <v-list-item-action>
@@ -83,6 +86,8 @@
                 if(val != undefined) {
                     var arr = this.list[val]._links.self.href.split('/');
                     obj['roomId'] = arr[4]; 
+                    
+                    
                     
                     
                     

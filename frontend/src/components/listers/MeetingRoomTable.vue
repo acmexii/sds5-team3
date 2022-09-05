@@ -72,6 +72,7 @@
                     { text: "used", value: "used" },
                     { text: "remark", value: "remark" },
                     { text: "remark2", value: "remark2" },
+                    { text: "remark3", value: "remark3" },
                 ],
             meetingRoom : [],
             newValue: {},
@@ -95,6 +96,7 @@
                 'used': false,
                 'remark': '',
                 'remark2': '',
+                'remark3': '',
             }
         },
         methods: {
