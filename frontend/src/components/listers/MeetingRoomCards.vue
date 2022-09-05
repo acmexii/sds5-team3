@@ -74,6 +74,7 @@
                 'used': false,
                 'remark': '',
                 'remark2': '',
+                'remark3': '',
             }
         },
         methods:{

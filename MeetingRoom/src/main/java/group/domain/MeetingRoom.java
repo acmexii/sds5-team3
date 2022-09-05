@@ -28,6 +28,7 @@ public class MeetingRoom {
     private String remark2;
 
     private String remark4;
+    private String remark3;
 
     @PostPersist
     public void onPostPersist() {
