@@ -14,6 +14,7 @@
                             
                             
                             
+                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
@@ -22,6 +23,7 @@
                             [ Location :  {{data.location }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Used :  {{data.used }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Remark :  {{data.remark }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Remark2 :  {{data.remark2 }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -108,6 +110,7 @@
                 'location': '',
                 'used': false,
                 'remark': '',
+                'remark2': '',
             }
         },
         methods: {

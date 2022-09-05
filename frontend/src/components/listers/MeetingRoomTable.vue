@@ -71,6 +71,7 @@
                     { text: "location", value: "location" },
                     { text: "used", value: "used" },
                     { text: "remark", value: "remark" },
+                    { text: "remark2", value: "remark2" },
                 ],
             meetingRoom : [],
             newValue: {},
@@ -93,6 +94,7 @@
                 'location': '',
                 'used': false,
                 'remark': '',
+                'remark2': '',
             }
         },
         methods: {

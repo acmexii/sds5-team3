@@ -25,6 +25,8 @@ public class MeetingRoom {
 
     private String remark;
 
+    private String remark2;
+
     @PostPersist
     public void onPostPersist() {
         MeetingRoomRegistered meetingRoomRegistered = new MeetingRoomRegistered(

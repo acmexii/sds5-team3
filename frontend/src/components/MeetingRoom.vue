@@ -22,6 +22,7 @@
             <String label="Location" v-model="value.location" :editMode="editMode"/>
             <Boolean label="Used" v-model="value.used" :editMode="editMode"/>
             <String label="Remark" v-model="value.remark" :editMode="editMode"/>
+            <String label="Remark2" v-model="value.remark2" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>
